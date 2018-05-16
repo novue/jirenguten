@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>风景列表</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .layout {
+      width: 800px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .clearfix::after {
+      contain: '';
+      overflow: hidden;
+      clear: both;
+    }
+
+    .layout h1 {
+      color: #777;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 10px;
+    }
+
+    .detail {
+      margin-top: 50px;
+    }
+
+    .detail li {
+      float: left;
+      width: 260px;
+      margin-right: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    }
+
+    .detail li:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    .detail img {
+      width: 100%;
+      opacity: 0.7;
+    }
+
+    .detail .txt p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 15px 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="layout">
+    <h1>风景列表</h1>
+    <ul class="clearfix detail">
+      <li class="item">
+        <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景画">
+        <div class="txt">
+          <p>这是一幅风景画</p>
+        </div>
+      </li>
+      <li class="item">
+        <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景画">
+        <div class="txt">
+          <p>这是一幅风景画</p>
+        </div>
+      </li>
+      <li class="item">
+        <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景画">
+        <div class="txt">
+          <p>这是一幅风景画</p>
+        </div>
+      </li>
+      <li class="item">
+        <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景画">
+        <div class="txt">
+          <p>这是一幅风景画</p>
+        </div>
+      </li>
+      <li class="item">
+        <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景画">
+        <div class="txt">
+          <p>这是一幅风景画</p>
+        </div>
+      </li>
+      <li class="item">
+        <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景画">
+        <div class="txt">
+          <p>这是一幅风景画</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
